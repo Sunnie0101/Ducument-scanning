@@ -28,5 +28,15 @@
   (3)	將區域內的所有值加上誤差  
   (4)	將偏白色的部份(>=225)變成白色  
 
+3.	影像增強  
+原本使用的是Beta校正，但調整到最後發現轉換的input-output圖與Gamma校正的十分類似，因此便改用計算較為簡便的Gamma校正。
+
+|Beta校正a=1.2, b=0.7|Gamma校正γ=2.0|
+|-------------------|--------------|
+|![image](https://user-images.githubusercontent.com/60318542/116194053-e248fd80-a762-11eb-96f8-5343627446df.jpeg)|![image](https://user-images.githubusercontent.com/60318542/116194070-e9700b80-a762-11eb-9d5d-f8e4e9a0f522.jpeg)|
+
+## 二、實驗結果：(以0001.jpg為範例)
+|
+
 
 
