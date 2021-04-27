@@ -36,7 +36,6 @@
 |![image](https://user-images.githubusercontent.com/60318542/116194053-e248fd80-a762-11eb-96f8-5343627446df.jpeg)|![image](https://user-images.githubusercontent.com/60318542/116194070-e9700b80-a762-11eb-9d5d-f8e4e9a0f522.jpeg)|
 
 ## 二、實驗結果：(以0001.jpg為範例)
-|
 
 
 
