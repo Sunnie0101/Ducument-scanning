@@ -42,17 +42,11 @@
 
 |原圖(Original Image)|Cammy邊緣偵測(Canny Edge Detection)|霍夫直線轉換(Hough Line Detection)|利用邊界找到四個頂點(Get Cornor)|
 |-------------------|----------------------------------|--------------------------------|--------------------------|
-|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Original%20Image.jpg)
-|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Canny%20Edge%20Detection.jpg)
-|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Hough%20Line%20Detection.jpg)
-|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Get%20Cornor.jpg)|
+|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Original%20Image.jpg)|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Canny%20Edge%20Detection.jpg)|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Hough%20Line%20Detection.jpg)|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Get%20Cornor.jpg)|
 
 |仿射轉換(Perspective Transform)|光源修正(Correction)|Gamma校正(完成圖)(gamma_correction(final))|使用Adobe Scan的結果|
 |-------------------|----------------------------------|--------------------------------|----------------------------------|
-|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Perspective%20Transform.jpg)
-|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Correction.jpg)
-|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/gamma_correction(final).jpg)
-|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Adobe%20Scan.jpg)|
+|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Perspective%20Transform.jpg)|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Correction.jpg)|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/gamma_correction(final).jpg)|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Adobe%20Scan.jpg)|
 
 
 **可以發現紅色圓圈中文字變淺的部份得到了改善**
