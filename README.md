@@ -20,7 +20,7 @@
   
   |平均法(Mean)|高斯法(Gauss)|
   |-----------|------------|
-  |![image](https://user-images.githubusercontent.com/60318542/116192975-37840f80-a761-11eb-910e-8e5c9a66c19c.jpeg)|![image](https://user-images.githubusercontent.com/60318542/116192993-3fdc4a80-a761-11eb-9195-64b83061e06c.jpeg)|  
+  |![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/Adaptive%20Thresholding(Gaussian).jpg)|![image](https://user-images.githubusercontent.com/60318542/116192993-3fdc4a80-a761-11eb-9195-64b83061e06c.jpeg)|  
 
   * 改良後的想法：利用適應性閥值的原理  
   (1)	找出遮罩(blur)中最亮的點，即白紙的部份  
