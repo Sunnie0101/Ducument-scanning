@@ -42,7 +42,7 @@
 
 |原圖(Original Image)|Cammy邊緣偵測(Canny Edge Detection)|霍夫直線轉換(Hough Line Detection)|
 |-------------------|----------------------------------|--------------------------------|
-|1|2|3|
+|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Original%20Image.jpg)|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Canny%20Edge%20Detection.jpg)|![image](https://github.com/Sunnie0101/Ducument-scanning/blob/main/img/example/0001/Hough%20Line%20Detection.jpg)|
 
 |利用邊界找到四個頂點(Get Cornor)|仿射轉換(Perspective Transform)|光源修正(Correction)|
 |-------------------|----------------------------------|--------------------------------|
@@ -56,9 +56,9 @@
 ### 程式限制：
 1. 當紙張有弧度時無法使用(霍夫直線轉換找不到直線)
 2. 每張圖最適合霍夫直線轉換的線長度參數(紅色框部分)不一樣，
-	如0001.jpg適合325，而0002.jpg適合300
- `lines = cv2.HoughLines(edges, 1, math.pi/180.0, 325)`
- `#0001:325  0002:300`
+	如0001.jpg適合325，而0002.jpg適合300  
+ `lines = cv2.HoughLines(edges, 1, math.pi/180.0, 325)  
+ #0001:325  0002:300`
  
 ## 三、貢獻說明：
 以課本所學實現目前市面上的掃描APP，並且修正因光線不均勻所造成的字體過淺(詳細於「方法與流程圖」中說明)。
